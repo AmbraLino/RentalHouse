@@ -1,0 +1,177 @@
+.admin-bookings-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.admin-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.admin-subtitle {
+  color: #64748b;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.admin-loading,
+.admin-empty {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #64748b;
+}
+
+.bookings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.booking-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+}
+
+.property-img {
+  width: 130px;
+  height: 95px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.booking-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.property-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.user-info {
+  margin: 0;
+  font-size: 13px;
+  color: #475569;
+}
+
+.booking-dates {
+  font-size: 14px;
+  color: #334155;
+  display: flex;
+  gap: 20px;
+  background: #f8fafc;
+  padding: 8px 12px;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.edit-dates-container {
+  display: flex;
+  gap: 15px;
+  margin: 5px 0;
+  flex-wrap: wrap;
+}
+
+.edit-field label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.edit-field input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.edit-field input:focus {
+  border-color: #3b82f6;
+}
+
+.booking-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.total-price {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2563eb;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-base {
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  transition: opacity 0.2s;
+}
+
+.btn-base:hover {
+  opacity: 0.9;
+}
+
+.btn-save {
+  background: #10b981;
+  color: #fff;
+}
+
+.btn-cancel {
+  background: #64748b;
+  color: #fff;
+}
+
+.btn-update {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.btn-delete {
+  background: #ef4444;
+  color: #fff;
+}
+
+.access-denied {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #ef4444;
+  font-weight: 600;
+}

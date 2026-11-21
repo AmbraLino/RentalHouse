@@ -1,0 +1,76 @@
+.footer-container {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 50px;
+  margin-top: auto; /* Siguron që të qëndrojë në fund të faqes */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-section h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #cbd5e1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-section p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1e293b;
+  text-align: center;
+  padding: 20px 20px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

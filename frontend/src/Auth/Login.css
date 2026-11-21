@@ -1,0 +1,190 @@
+.login-full-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+.login-full-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Pak më shumë hije për ta ngritur nga sfondi */
+  border: 1px solid #e2e8f0;
+}
+
+.login-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-form label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0f172a;
+  text-transform: uppercase;
+  margin-bottom: -6px;
+}
+
+.login-form input {
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  background-color: #f8fafc;
+  transition: border-color 0.2s, background-color 0.2s;
+  width: 100%;
+}
+
+.login-form input:focus {
+  border-color: #2563eb;
+  background-color: #ffffff;
+}
+
+.login-btn {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+.login-btn:hover {
+  background-color: #1e293b;
+}
+
+.login-signup-text {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-top: 20px;
+}
+
+.login-signup-text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-signup-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+}
+.login-container {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.login-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-form label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0f172a;
+  text-transform: uppercase;
+  margin-bottom: -6px;
+}
+
+.login-form input {
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  background-color: #f8fafc;
+  transition: border-color 0.2s, background-color 0.2s;
+  width: 100%;
+}
+
+.login-form input:focus {
+  border-color: #2563eb;
+  background-color: #ffffff;
+}
+
+.login-btn {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+.login-btn:hover {
+  background-color: #1e293b;
+}
+
+.login-signup-text {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-top: 20px;
+}
+
+.login-signup-text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-signup-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+}
